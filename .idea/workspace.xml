@@ -4,19 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99a30ff3-f87a-45a0-812e-0046c9f68d57" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/n8ndocker/n8n_local/crash.journal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/n8ndocker/n8n_local/database.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/n8ndocker/n8n_local/database.sqlite" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/n8ndocker/n8n_local/n8nEventLog.log" beforeDir="false" afterPath="$PROJECT_DIR$/n8ndocker/n8n_local/n8nEventLog.log" afterDir="false" />
+    <list default="true" id="99a30ff3-f87a-45a0-812e-0046c9f68d57" name="Changes" comment="upgrade versions">
+      <change afterPath="$PROJECT_DIR$/src/main/java/librerias/json/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/librerias/listas/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/javalin/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/javalin/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/javalin/controllers/JsonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/javalin/controllers/JsonController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/spring/controllers/DemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring/controllers/DemoController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +37,13 @@
     <persistenceIdMap>
       <entry key="_/home/enrique/workspaces/oop2-frameworks" value="3ERVDkj0NTYixLYXWu1Q9lc94Q7" />
     </persistenceIdMap>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -86,16 +85,30 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm"
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.librerias.json.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="javalin.Main" />
       <module name="frameworks" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="javalin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="librerias.json.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="librerias.json.Main" />
+      <module name="frameworks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="librerias.json.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,6 +143,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.librerias.json.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Spring Boot.Main" />
       </list>
@@ -151,10 +165,23 @@
       <option name="presentableId" value="Default" />
       <updated>1780141254117</updated>
     </task>
+    <task id="LOCAL-00001" summary="upgrade versions">
+      <option name="closed" value="true" />
+      <created>1780153517023</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1780153517023</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="upgrade versions" />
+    <option name="LAST_COMMIT_MESSAGE" value="upgrade versions" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
