@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99a30ff3-f87a-45a0-812e-0046c9f68d57" name="Changes" comment="ejemplos de librerias">
+    <list default="true" id="99a30ff3-f87a-45a0-812e-0046c9f68d57" name="Changes" comment="mejoro nombres">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/junit/blackbox/usuario/TestUnoYDos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/junit/blackbox/usuario/TestUnoYDos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/junit/whitebox/v1/usuario/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/junit/whitebox/v1/usuario/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/junit/whitebox/v2/framework/TestCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/junit/whitebox/v2/framework/TestCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/workflow/usuario/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/workflow/usuario/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,13 +76,16 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.Main.executor": "Run",
+    "Application.Main.executor": "Debug",
+    "Application.RunWorkflow.executor": "Run",
     "Application.junit.blackbox.usuario.Main.executor": "Run",
     "Application.junit.whitebox.v1.usuario.Main.executor": "Run",
     "Application.junit.whitebox.v2.usuario.Main.executor": "Run",
     "Application.librerias.json.Main.executor": "Run",
+    "Application.prueba.usuario.Main.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "Spring Boot.Main.executor": "Run",
@@ -100,13 +101,17 @@
     "settings.editor.selected.configurable": "actions.on.save"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.junit.blackbox.usuario.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javalin.Main" />
+  <component name="RunManager" selected="Application.RunWorkflow">
+    <configuration name="RunWorkflow" type="Application" factoryName="Application" temporary="true">
+      <envs>
+        <env name="MAILTRAP_USER" value="3f9599b8962918" />
+        <env name="MAILTRAP_PASSWORD" value="6cd1808adc24ab" />
+      </envs>
+      <option name="MAIN_CLASS_NAME" value="workflow.usuario.Main" />
       <module name="frameworks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javalin.*" />
+          <option name="PATTERN" value="workflow.usuario.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,12 +158,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="librerias.json.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="librerias.json.Main" />
+    <configuration name="prueba.usuario.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="prueba.usuario.Main" />
       <module name="frameworks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="librerias.json.*" />
+          <option name="PATTERN" value="prueba.usuario.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -177,13 +182,20 @@
       <option name="filePath" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Application.junit.blackbox.usuario.Main" />
+      <item itemvalue="Application.junit.whitebox.v1.usuario.Main" />
+      <item itemvalue="Application.junit.whitebox.v2.usuario.Main" />
+      <item itemvalue="Application.RunWorkflow" />
+      <item itemvalue="Application.prueba.usuario.Main" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RunWorkflow" />
+        <item itemvalue="Application.prueba.usuario.Main" />
         <item itemvalue="Application.junit.blackbox.usuario.Main" />
         <item itemvalue="Application.junit.whitebox.v2.usuario.Main" />
         <item itemvalue="Application.junit.whitebox.v1.usuario.Main" />
-        <item itemvalue="Application.librerias.json.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -219,7 +231,15 @@
       <option name="project" value="LOCAL" />
       <updated>1780257280514</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="mejoro nombres">
+      <option name="closed" value="true" />
+      <created>1780352239124</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1780352239124</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,7 +248,19 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="upgrade versions" />
     <MESSAGE value="ejemplos de librerias" />
-    <option name="LAST_COMMIT_MESSAGE" value="ejemplos de librerias" />
+    <MESSAGE value="mejoro nombres" />
+    <option name="LAST_COMMIT_MESSAGE" value="mejoro nombres" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/workflow/usuario/Main.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
