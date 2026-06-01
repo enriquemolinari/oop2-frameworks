@@ -22,8 +22,6 @@ public abstract class TestCase {
                 }
             }
         }
-
-
     }
 
     private boolean isTestMethod(Method method) {

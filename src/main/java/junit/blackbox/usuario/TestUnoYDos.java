@@ -17,14 +17,14 @@ public class TestUnoYDos {
     }
 
     @TestUnitario
-    public void testUno() throws Exception {
+    public void unTest() throws Exception {
         list.add("Hola");
         list.add("Mundo");
         assertEquals(2, list.size());
     }
 
     @TestUnitario
-    public void testDos() throws Exception {
+    public void otroTest() throws Exception {
         list.add("Hola");
         assertEquals("Hello", list.get(0));
     }
